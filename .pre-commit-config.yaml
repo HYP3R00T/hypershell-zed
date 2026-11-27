@@ -1,0 +1,26 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-illegal-windows-names
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+
+  - repo: https://github.com/biomejs/pre-commit
+    rev: v2.6.9
+    hooks:
+      - id: biome-ci
+
+  - repo: https://github.com/tombi-toml/tombi-pre-commit
+    rev: v1.11.3
+    hooks:
+      - id: tombi-format
+        args: [--check]
+      - id: tombi-lint

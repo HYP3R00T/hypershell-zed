@@ -1,0 +1,17 @@
+name: Feature proposal
+description: Suggest a theme, variant, or workflow improvement.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to change?
+      description: Describe the idea and where it would help.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Share a palette, screenshot, or example if you have one.

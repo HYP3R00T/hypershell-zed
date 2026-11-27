@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a theme or installation problem.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Zed version and operating system
+      placeholder: "Zed 1.25.2 on Arch Linux"
+    validations:
+      required: true
+  - type: input
+    id: theme
+    attributes:
+      label: Theme and extension version or commit
+      placeholder: "Carbon, HyperShell Zed 0.0.1"
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Describe what you did, what you expected, and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or relevant logs
+      description: Include a cropped screenshot if the issue is visual.
