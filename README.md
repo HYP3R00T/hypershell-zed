@@ -2,7 +2,7 @@
 
 HyperShell Zed is a theme collection for Zed. The [HyperShell desktop project][desktop] is maintained separately.
 
-- [**Carbon**](themes/carbon.json) pairs charcoal surfaces with cool blue accents. It is based on the [HyperShell desktop palette][hypershell] and was generated with [Omazed][omazed].
+- [**Carbon**](themes/carbon.json) pairs charcoal surfaces with cool blue accents. Its colors come from the [HyperShell Carbon palette][palette].
 
 ## Develop locally
 
@@ -19,6 +19,5 @@ Add a JSON file under `themes/` for each new theme family. Use the `themes` arra
 To submit the extension to Zed’s catalog, follow [Zed’s publishing guide][publishing].
 
 [desktop]: https://github.com/HYP3R00T/hypershell
-[hypershell]: https://github.com/HYP3R00T/hypershell/tree/main/themes/carbon
-[omazed]: https://github.com/aps6/omazed
+[palette]: https://github.com/HYP3R00T/hypershell/blob/8ffa6c5a07cfd0ad0f1db209f3d06616b9a5e68c/themes/carbon/colors.toml
 [publishing]: https://zed.dev/docs/extensions/publishing/publishing-guide
