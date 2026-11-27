@@ -1,0 +1,7 @@
+id = "hypershell-zed"
+name = "HyperShell Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Rajesh Das"]
+description = "A Zed theme collection featuring Carbon, a charcoal theme with cool blue accents."
+repository = "https://github.com/HYP3R00T/hypershell-zed"
